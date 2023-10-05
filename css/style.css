@@ -11,7 +11,7 @@
 	--bg-color: #fff;
 	--text-color: #221314;
 	--second-color: #5a7184;
-	--main-color: #6e54fa;
+	--main-color: #fbd26c;
 	--big-font: 6rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
@@ -20,11 +20,15 @@ body{
 	background: var(--bg-color);
 	color: var(--text-color);
 }
+
+.contact-backgorund{
+	background: url(../img/conatc_background.jpg);
+}
 .contact {
 	padding: 40px;
 	display: flex;
-	justify-content: space-around;
-	align-items: center; /* Centrer verticalement */
+	justify-content: center;
+
   }
  
   .contact h2 {
@@ -39,7 +43,8 @@ body{
 	border-radius: 8px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
+
+
   .input-container {
 	position: relative;
 	margin-bottom: 20px;
@@ -114,7 +119,7 @@ header{
 	display: flex;
 }
 .navbar a{
-	color: var(--bg-color);
+	color: #000;
 	font-size: var(--p-font);
 	font-weight: 500;
 	padding: 10px 22px;
@@ -128,9 +133,7 @@ header{
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
 	border-radius: 4px;
 }
-.style_header a{
-	color: #000;
-}
+
 #menu-icon{
 	color: #000;
 	font-size: 35px;
@@ -146,7 +149,7 @@ section{
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background: url(../img/background.jpg);
+	background: url(../img/background1.png);
 	background-size: cover;
 	background-position: center;
 	display: grid;
@@ -214,8 +217,8 @@ header.sticky{
 	cursor: pointer;
 }
 .container-img img{
-	height: 85px;
-	width: 85px;
+	height: 95px;
+	width: 95px;
 	padding: 15px;
 	background: var(--bg-color);
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
@@ -510,7 +513,7 @@ header.sticky{
 		right: -100%;
 		width: 270px;
 		height: 120vh;
-		background: #1067cc;
+		background: var(--main-color);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
