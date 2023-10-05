@@ -28,7 +28,6 @@ body{
 	padding: 40px;
 	display: flex;
 	justify-content: center;
-
   }
  
   .contact h2 {
@@ -536,6 +535,9 @@ header.sticky{
 	.list{
 		width: 50%;
 		margin-bottom: 12px;
+	}
+	.contact-form{
+		width: 100%;
 	}
 }
 
