@@ -22,19 +22,19 @@ body{
 }
 .contact {
 	padding: 40px;
-	display: grid;
-	grid-template-columns: 1fr 1fr; /* Deux colonnes, une pour le formulaire et une pour la carte */
-	gap: 20px; /* Espacement entre les deux colonnes */
+	display: flex;
+	justify-content: space-around;
 	align-items: center; /* Centrer verticalement */
   }
-  
+ 
   .contact h2 {
 	font-size: 24px;
 	margin-bottom: 20px;
   }
-  
+
   .contact-form {
 	background-color: #fff;
+	width: 40%;
 	padding: 20px;
 	border-radius: 8px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -79,7 +79,7 @@ body{
   }
   
   .contact-form button {
-	background-color: #236FB2;
+	background-color: var(--main-color);
 	color: #fff;
 	border: none;
 	padding: 10px 20px;
@@ -121,17 +121,18 @@ header{
 	border-radius: 4px;
 	transition: ease .40s;
 }
-.style_header a{
-	color: #000;
-}
+
 .navbar a:hover{
 	background: var(--bg-color);
 	color: var(--text-color);
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
 	border-radius: 4px;
 }
+.style_header a{
+	color: #000;
+}
 #menu-icon{
-	color: var(--bg-color);
+	color: #000;
 	font-size: 35px;
 	z-index: 10001;
 	cursor: pointer;
